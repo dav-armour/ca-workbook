@@ -13,4 +13,4 @@ while !(1..5).include?(row_input)
   puts ('What row do you want to sum?')
   row_input = gets.chomp.to_i
 end
-puts "Sum of row #{row_input}: #{rows[row_input].sum}"
+puts "Sum of row #{row_input}: #{rows[row_input - 1].sum}"
